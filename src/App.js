@@ -46,8 +46,8 @@ function App() {
 
           <main className="px-16 py-6 bg-gray-100 md:col-span-2">
              <div className="flex justify-center md:justify-end">
-              <a href="#" className= "btn text-[#FF6363] border-[#FF6363] md:border-2 hover:bg-[#FF6363] hover:text-white">Login</a>
-              <a href="#" className="btn text-[#FF6363] border-[#FF6363] md:border-2 ml-2 hover:bg-[#FF6363] hover:text-white">Sign up</a>
+              <a href="#" className= "btn text-[#FF6363] border-[#FF6363] md:border-2 hover:bg-[#FF6363] hover:text-white transition ease-out duration-500">Login</a>
+              <a href="#" className="btn text-[#FF6363] border-[#FF6363] md:border-2 ml-2 hover:bg-[#FF6363] hover:text-white transition ease-out duration-500">Sign up</a>
              </div> 
 
               <header>
@@ -60,7 +60,7 @@ function App() {
                   <div className="mt-8 grid lg:grid-cols-3 gap-10">
 
                     {/* cards go here 1 */}
-                    <div className="card hover:shadow-lg"> 
+                    <div className="card hover:shadow-lg transform hover:scale-105"> 
                       <img src={img11} alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
                         <span className="font-bold">Veg Noddles</span>
@@ -68,53 +68,22 @@ function App() {
                       </div>
 
                       {/*for badges 1 */}
-                      <div className="badge flex">
+                      <div className="badge flex hover:shadow-inner ">
                       <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         <span>25 mins</span>
                       </div>
                     </div>
-                    {/* cards go here */}
-                    <div className="card hover:shadow-lg"> 
+                    {/* cards go here 2 */}
+                    <div className="card hover:shadow-lg hover:scale-105"> 
                       <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
                         <span className="font-bold">Pizza</span>
                         <span className="block text-gray-500 text-sm">Recipe by Femi</span>
                       </div>
 
-                      {/*for badges*/}
-                      <div className="badge flex">
-                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        <span>25 mins</span>
-                      </div>
-                    </div>
-
-                    {/* cards go here 2 */}
-                    <div className="card hover:shadow-lg"> 
-                      <img src={img} alt="" className="w-full h-32 sm:h-48 object-cover"/>
-                      <div className="m-4">
-                        <span className="font-bold">Tofu curry & Veg</span>
-                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
-                      </div>
-
                       {/*for badges 2 */}
-                      <div className="badge flex"> 
-                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        <span>25 mins</span>
-                      </div>
-                    </div>
-                    {/* cards go here */}
-                    <div className="card hover:shadow-lg"> 
-                      <img src="https://images.pexels.com/photos/949069/pexels-photo-949069.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
-                      <div className="m-4">
-                        <span className="font-bold">Fruit Salad</span>
-                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
-                      </div>
-
-                      {/*for badges*/}
-                      <div className="badge flex"> 
+                      <div className="badge flex hover:shadow-inner ">
                       <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         <span>25 mins</span>
@@ -122,31 +91,62 @@ function App() {
                     </div>
 
                     {/* cards go here 3 */}
-                    <div className="card hover:shadow-lg"> 
-                      <img src={img12} alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                    <div className="card hover:shadow-lg hover:scale-105"> 
+                      <img src={img} alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
-                        <span className="font-bold">Spicy Suya</span>
+                        <span className="font-bold">Tofu curry & Veg</span>
                         <span className="block text-gray-500 text-sm">Recipe by Femi</span>
                       </div>
 
                       {/*for badges 3 */}
-                      <div className="badge flex"> 
+                      <div className="badge flex hover:shadow-inner "> 
+                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>25 mins</span>
+                      </div>
+                    </div>
+                    {/* cards go here 4 */}
+                    <div className="card hover:shadow-lg hover:scale-105"> 
+                      <img src="https://images.pexels.com/photos/949069/pexels-photo-949069.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <div className="m-4">
+                        <span className="font-bold">Fruit Salad</span>
+                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
+                      </div>
+
+                      {/*for badges 4 */}
+                      <div className="badge flex hover:shadow-inner "> 
                       <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         <span>25 mins</span>
                       </div>
                     </div>
 
-                    {/* cards go here */}
-                    <div className="card hover:shadow-lg"> 
+                    {/* cards go here 5 */}
+                    <div className="card hover:shadow-lg hover:scale-105"> 
+                      <img src={img12} alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <div className="m-4">
+                        <span className="font-bold">Spicy Suya</span>
+                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
+                      </div>
+
+                      {/*for badges 5 */}
+                      <div className="badge flex hover:shadow-inner "> 
+                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>25 mins</span>
+                      </div>
+                    </div>
+
+                    {/* cards go here 6 */}
+                    <div className="card hover:shadow-lg hover:scale-105"> 
                       <img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
                         <span className="font-bold">Hamburger</span>
                         <span className="block text-gray-500 text-sm">Recipe by Femi</span>
                       </div>
 
-                      {/*for badges*/}
-                      <div className="badge flex"> 
+                      {/*for badges 6 */}
+                      <div className="badge flex hover:shadow-inner "> 
                       <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                         <span>25 mins</span>
@@ -160,7 +160,7 @@ function App() {
                   </div> {/* end cards go here */}
 
                   <div className="flex justify-center">
-                    <div className="btn bg-[#E2E2d5] text-[#888883] hover:shadow-inner">Load more</div>
+                    <div className="btn bg-[#E2E2d5] text-[#888883] hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 ease-out duration-300 ">Load more</div>
                   </div>
                 </div>
           </main>
