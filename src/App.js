@@ -76,9 +76,9 @@ function App() {
                     </div>
                     {/* cards go here */}
                     <div className="card hover:shadow-lg"> 
-                      <img src={img11} alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <img src="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
-                        <span className="font-bold">Veg Noddles</span>
+                        <span className="font-bold">Pizza</span>
                         <span className="block text-gray-500 text-sm">Recipe by Femi</span>
                       </div>
 
@@ -107,9 +107,9 @@ function App() {
                     </div>
                     {/* cards go here */}
                     <div className="card hover:shadow-lg"> 
-                      <img src={img} alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <img src="https://images.pexels.com/photos/949069/pexels-photo-949069.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
-                        <span className="font-bold">Tofu curry & Veg</span>
+                        <span className="font-bold">Fruit Salad</span>
                         <span className="block text-gray-500 text-sm">Recipe by Femi</span>
                       </div>
 
@@ -139,9 +139,9 @@ function App() {
 
                     {/* cards go here */}
                     <div className="card hover:shadow-lg"> 
-                      <img src={img12} alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <img src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
                       <div className="m-4">
-                        <span className="font-bold">Spicy Suya</span>
+                        <span className="font-bold">Hamburger</span>
                         <span className="block text-gray-500 text-sm">Recipe by Femi</span>
                       </div>
 
