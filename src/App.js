@@ -156,11 +156,60 @@ function App() {
 
                   <h4 className="font-bold mt-12 pb-2 border-b">Most popular</h4>
 
-                  <div className="mt-8">
+                  <div className="mt-8 grid lg:grid-cols-3 gap-10">
+
+                       {/* card 1 */}
+                       <div className="card hover:shadow-lg hover:scale-105"> 
+                      <img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <div className="m-4">
+                        <span className="font-bold">Jollof rice with chicken</span>
+                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
+                      </div>
+
+                      {/* badges 1 */}
+                      <div className="badge flex hover:shadow-inner "> 
+                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>25 mins</span>
+                      </div>
+                    </div>
+
+                       {/* card 2 */}
+                       <div className="card hover:shadow-lg hover:scale-105"> 
+                      <img src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <div className="m-4">
+                        <span className="font-bold">Pancakes</span>
+                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
+                      </div>
+
+                      {/* badges 2 */}
+                      <div className="badge flex hover:shadow-inner ">
+                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>25 mins</span>
+                      </div>
+                    </div>
+
+                       {/* card 3 */}
+                       <div className="card hover:shadow-lg hover:scale-105"> 
+                      <img src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="w-full h-32 sm:h-48 object-cover"/>
+                      <div className="m-4">
+                        <span className="font-bold">Shawama</span>
+                        <span className="block text-gray-500 text-sm">Recipe by Femi</span>
+                      </div>
+
+                      {/* badges 3 */}
+                      <div className="badge flex hover:shadow-inner ">
+                      <svg className="w-5" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span>25 mins</span>
+                      </div>
+                    </div>
+
                   </div> {/* end cards go here */}
 
                   <div className="flex justify-center">
-                    <div className="btn bg-[#E2E2d5] text-[#888883] hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 ease-out duration-300 ">Load more</div>
+                    <div className="btn bg-[#E2E2d5] text-[#888883] hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 ease-out duration-300 mt-32">Load more</div>
                   </div>
                 </div>
           </main>
